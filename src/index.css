@@ -32,9 +32,16 @@ h1 {
   align-items: center;
 }
 
-.StarWindow, .NumberWindow {
+.Windows div {
   width: 300px;
   height: 300px;
-  /*text-align: center;*/
+  text-align: center;
   border: 1px solid #282c34;
+
+}
+
+.Windows div img {
+  width: 25%;
+  padding: 10px;
+  object-fit: contain;
 }
