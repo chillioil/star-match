@@ -43,11 +43,13 @@ class Number extends React.Component<any, any> {
 }
 
 function App(props: any) {
+    const numStars = Math.floor(Math.random() * 9) + 1;
+
     return (
         <div className="App">
             <h1>Pick 1 or more numbers that add up to the number of stars</h1>
             <div className="Windows">
-                <StarWindow numStars={7} />
+                <StarWindow numStars={numStars} />
                 <NumberWindow />
             </div>
         </div>
